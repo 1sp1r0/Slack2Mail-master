@@ -4,7 +4,7 @@ var _ = require('lodash'),
     RTM_EVENTS = require('@slack/client').RTM_EVENTS,
     nodemailer = require('nodemailer'),
     
-    Config = require('./config/config'),
+    Config = require('./config'),
     User = Config.users,
     Channels = [],
     DirectChannels = {};
